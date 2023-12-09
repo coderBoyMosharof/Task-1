@@ -272,8 +272,8 @@ font-family: 'Roboto', sans-serif; */
     width: 32%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
    text-align: center;
-   padding: 15px;
-   border-radius: 5px;
+   padding: 20px;
+   border-radius: 7px;
 }
 .service span{
     font-size: 40px;
@@ -293,4 +293,81 @@ font-family: 'Roboto', sans-serif; */
     color: white;
     border-color: lightblue;
 }
+.service h3,p{
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 15px;
+}
+
+.service p{
+    line-height: 1.7em;
+}
 /* Service SEction CSS End  */
+
+
+/* Portfolio SErvice CSS Start */
+.portfolio-section{
+    padding: 50px 0px;
+    position: relative;
+    text-align: center;
+}
+.portfolio-title{
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.portfolio-title::before {
+    content: "";
+    width: 149px;
+    height: 3px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    top: 87px; 
+    left: 595px;
+    text-align: center;
+    margin: 0px auto;
+    display: inline-block;
+}
+.portfolio-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.portfolio-service{
+    position: relative;
+    width: 370px;
+    height: 221px;
+    margin-top: 15px;
+}
+.another-service{
+    width: 370px;
+    height: 471px; 
+}
+.hover-service{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    width: 0%;
+    height:0%;
+    background-color: rgba(31,44,108,.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.another-service .hover-service h3{
+    margin-top: 250px;
+}
+.hover-service h3{
+    margin-top: 105px;
+    font-family: 'Roboto', sans-serif;
+}
+.portfolio-service:hover .hover-service{
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    
+}
+/* Portfolio SErvice CSS ENd */
