@@ -371,3 +371,107 @@ font-family: 'Roboto', sans-serif; */
     
 }
 /* Portfolio SErvice CSS ENd */
+
+
+/* Contact Information Css Start */
+.contact-section{
+    padding: 60px 0px;
+}
+.contact-information{
+    display: flex;
+}
+.contact-title{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.contact-form{
+    width: 48%;
+}
+.contact-form input{
+    height: 50px;
+    padding: 10px ;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background-color: #fafafa;
+    border: 1px solid #0078ff;
+    border-radius: 5px;
+}
+.contact-form textarea{
+    font-size: 16px;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #0078ff;
+    border-radius: 5px;
+}
+.contact-form button{
+    height: 50px;
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.contact-form input, textarea :focus{
+    border-color: #0078ff;
+}
+.contact-form .w-50{
+    width: 250px;
+}
+.contact-form .w-100{
+    width: 503px;
+}
+.contact-details{
+    width: 48%;
+}
+.contact-details h2,h4,p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-details .name h2{
+    font-size: 25px;
+    color: #3c4258;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-details .name p{
+    font-size: 16px;
+    color: #636a82;
+    margin-bottom: 20px;
+}
+.contact-details .phone h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #3c4258;
+}
+.contact-details .phone p{
+    color: #3c4258;
+    margin-bottom: 20px;
+}
+.contact-details .email h4{
+    font-family: 'Poppins', sans-serif;
+    color: #3c4258;
+}
+.contact-details .email p{
+    color: #3c4258;
+    margin-bottom: 20px;
+}
+.contact-details .website h4{
+    font-family: 'Poppins', sans-serif;
+    color: #3c4258;
+}
+.contact-details .website p{
+    color: #3c4258;
+}
+
+.social-media-links a{
+    margin-top: 30px;
+    margin-right: 15px;
+    display: inline-block;
+}
+/* Contact Information Css End */
+
+
+/* FOOter SEction CSS Start
+ */
