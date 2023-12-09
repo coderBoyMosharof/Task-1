@@ -73,7 +73,7 @@ font-family: 'Roboto', sans-serif; */
 
 /* Banner Section Start */
 .banner-section{
-    background-image: linear-gradient(#f7660b78,#063498ad),url(/banner.jpg);
+    background-image: linear-gradient(#f7660b78,#063498ad),url(../images/banner.jpg);
     padding: 150px 0px;
     background-repeat: no-repeat;
     background-size: cover;
