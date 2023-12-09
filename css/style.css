@@ -1,0 +1,296 @@
+/* Default Css Start  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+hr{
+    margin: 20px 0px;
+    /* width: 1170px; */
+}
+
+/* Default Css End  */
+
+/* Google Fonts CDN */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* Header SEction Start */
+.header-section{
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-between;
+}
+.header-logo{
+    /* width: 40%; */
+}
+
+.header-logo a{
+    color: #6f6f6f;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.header-nav{
+    /* width: 60%; */
+
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style-type: none;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #6f6f6f;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 35px;
+}
+.menu li a:hover{}
+/* Header Section End  */
+
+
+/* Banner Section Start */
+.banner-section{
+    background-image: linear-gradient(#f7660b78,#063498ad),url(/banner.jpg);
+    padding: 150px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-title{
+    width: 400px;
+    margin: auto;
+    color: white;
+}
+.banner-title h2{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin:20px 0px;
+}
+.banner-title p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 60px;
+}
+
+.download-btn{
+    font-size: 20px;
+    background-color: #183C80;
+   width: 180px;
+    margin: 0 auto;
+    border-radius: 5px;
+     
+
+}
+.download-btn a{
+    text-decoration: none;
+    color: white;
+   display: inline-block;
+   padding: 10px;
+    
+}
+
+/* About Section Start */
+.about-section{
+    padding: 100px 0px;
+}
+.about-title{
+    text-align: center;
+}
+
+.about-title h2{
+    margin-bottom: 20px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.about-description{
+    display: flex;
+    padding: 20px;
+}
+
+.about-left-content{
+    width: 48%;
+    margin-right: 2%;
+}
+.about-left-content p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    margin: 30px 0px;
+}
+.about-left-content .last-pera{
+    font-size: 16px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    margin:30px 0px;
+    line-height: 1.5em;
+}
+.about-left-content-bottom{
+    display: flex;
+    margin: 20px 0px;
+    color: #776A82;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+}
+
+
+.email-title{
+    margin-right: 10px;
+}
+.email-title p{
+
+}
+
+.about-right-content{
+    width: 48%;
+    margin-left: 2%;
+}
+.about-img img{
+    max-width: 100%;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+/* About Section End */
+
+
+/* Skills Section Start */
+
+.skills-section{
+    padding: 60px 0px;
+}
+.skil-title{
+    margin-bottom: 80px;
+}
+.skil-title h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+}
+.skils-wrapper{
+    display: flex;
+}
+.basic-skils{
+    width: 48%;
+    margin-right: 2%;
+}
+.programming-skils{
+    width: 48%;
+}
+.skil{
+    margin: 20px 0px;
+}
+.skil p{
+    margin: 16px 0px;
+    font-family: 'Lato', sans-serif;
+}
+.skil div{
+    width: 100%;
+    height: 10px;
+    background-color: #cde1f8;
+    position: relative;
+}
+.skil div::before{
+    content: "";
+    position: absolute;
+    background-color: #0078ff;
+    left: 0;
+    top: 0;
+    width: 50%;
+    display: block;
+    height: 10px;
+}
+.skil.office div::before{
+    width: 90%;
+}
+.skil.excel div::before{
+    width: 75%;
+}
+.skil.excel div::before{
+    width: 75%;
+}
+.skil.powerpoint div::before{
+    width: 85%;
+}
+.skil.html div::before{
+    width: 85%;
+}
+.skil.css div::before{
+    width: 50%;
+}
+.skil.js div::before{
+    width: 45%;
+}
+
+/* Service SEction CSS Start */
+.service-section{
+    padding: 60px 0px;
+}
+.service-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.service-title::before{
+    content: "";
+    width: 110px;
+    height: 3px ;
+    background-color: #0078ff;
+    position: absolute;
+   top: 35px;
+}
+.inner-service{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 20px;
+}
+.service{
+    width: 32%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   text-align: center;
+   padding: 15px;
+   border-radius: 5px;
+}
+.service span{
+    font-size: 40px;
+    border-radius: 50%;
+    border: 10px solid #0078ff;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    /* background-color: transparent; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+.service span:hover{
+    background-color: #0078ff;
+    color: white;
+    border-color: lightblue;
+}
+/* Service SEction CSS End  */
